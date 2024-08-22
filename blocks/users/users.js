@@ -1,10 +1,3 @@
-
-import { fetchPlaceholders,getMetadata } from '../../scripts/aem.js';
-const placeholders = await fetchPlaceholders(getMetadata("locale"));
-
-
-
-
 async function createList(jsonURL, offset = 1, limit = 20) {
     // Fetch data with query parameters
     const resp = await fetch(`${jsonURL}?offset=${offset}&limit=${limit}`);

@@ -1,4 +1,4 @@
-import {fetchPlaceholders, getMetadata , createOptimizedPicture } from '../../scripts/aem.js';
+import {fetchPlaceholders , createOptimizedPicture } from '../../scripts/aem.js';
 
 export default async function decorate(block) {
   /* change to ul, li */
