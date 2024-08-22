@@ -17,7 +17,6 @@
 
 .embed .embed-placeholder {
   width: 100%;
-  aspect-ratio: 16 / 9;
   position: relative;
 }
 
@@ -26,7 +25,6 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  inset: 0;
 }
 
 .embed .embed-placeholder picture img {

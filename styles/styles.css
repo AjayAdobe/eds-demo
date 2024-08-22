@@ -43,13 +43,11 @@
 /* fallback fonts */
 @font-face {
   font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
   src: local("Arial");
 }
 
 @font-face {
   font-family: roboto-fallback;
-  size-adjust: 99.529%;
   src: local("Arial");
 }
 
@@ -109,24 +107,28 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: 600;
   line-height: 1.25;
-  scroll-margin: 40px;
 }
 
 h1 {
   font-size: var(--heading-font-size-xxl);
 }
+
 h2 {
   font-size: var(--heading-font-size-xl);
 }
+
 h3 {
   font-size: var(--heading-font-size-l);
 }
+
 h4 {
   font-size: var(--heading-font-size-m);
 }
+
 h5 {
   font-size: var(--heading-font-size-s);
 }
+
 h6 {
   font-size: var(--heading-font-size-xs);
 }
@@ -283,6 +285,7 @@ main .light-grey {
   position: relative;
   border-radius: 10px;
 }
+
 .custom-icon::before {
   content: "";
   position: absolute;
