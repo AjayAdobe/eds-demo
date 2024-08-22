@@ -20,7 +20,6 @@ main .form input,
 main .form textarea,
 main .form select {
   border: solid 1px #000;
-  padding: var(--spacing-xxs) var(--spacing-xs);
   width: 100%;
   max-width: 50rem;
   box-sizing: border-box;
@@ -65,7 +64,7 @@ main .form .form-checkbox-wrapper {
   margin: var(--spacing-xs) 0;
 }
 
-main .form .form-checkbox-wrapper input[type='checkbox'] {
+main .form .form-checkbox-wrapper input[type="checkbox"] {
   appearance: none;
 
   /* stylelint-disable */
@@ -82,22 +81,22 @@ main .form .form-checkbox-wrapper input[type='checkbox'] {
   margin-left: 0;
 }
 
-main .form .form-checkbox-wrapper input[type='checkbox']::after {
+main .form .form-checkbox-wrapper input[type="checkbox"]::after {
   display: block;
   position: absolute;
   top: 0;
   left: 0;
   height: 20px;
   width: 20px;
-  content: ' ';
-  background: url('./checkbox.svg');
+  content: " ";
+  background: url("./checkbox.svg");
   background-size: contain;
 }
 
-main .form .form-checkbox-wrapper input[type='checkbox']:checked::after {
-  background: url('./checkbox-checked.svg');
+main .form .form-checkbox-wrapper input[type="checkbox"]:checked::after {
+  background: url("./checkbox-checked.svg");
   background-size: contain;
-  content: ' ';
+  content: " ";
 }
 
 main .form .form-checkbox-wrapper label {
@@ -121,7 +120,7 @@ main .form button {
   main .form {
     padding: var(--spacing-ml);
   }
-  
+
   main .form .field-wrapper {
     display: flex;
   }
@@ -131,14 +130,14 @@ main .form button {
   }
 }
 
-.form-container{
+.form-container {
   background: #f5f2ec;
   color: #000;
 }
-.field-wrapper{
+.field-wrapper {
   margin: 10px 0;
 }
 
-.main .form .field-wrapper input{
+.main .form .field-wrapper input {
   padding: 10px;
 }

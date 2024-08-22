@@ -47,7 +47,6 @@ async function submitForm(form) {
   });
   await resp.text();
   return payload;
- 
 }
 
 function createButton(fd) {

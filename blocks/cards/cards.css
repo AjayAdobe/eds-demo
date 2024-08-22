@@ -12,10 +12,10 @@
   background-color: var(--background-color);
 }
 
-.cards .cards-card-body  {
+.cards .cards-card-body {
   margin: 16px;
 }
-.anchor-text{
+.cards > ul > li > .anchor-text {
   padding: 16px;
 }
 

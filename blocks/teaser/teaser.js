@@ -6,8 +6,6 @@ import { loadFragment } from '../fragment/fragment.js';
  * @param {Element} block The teaser block element
  */
 export default async function decorate(block) {
-
-    console.log("teaser", block)
   // load footer as fragment
   const teaserMeta = getMetadata('teaser');
   const teaserPath = teaserMeta ? new URL(teaserMeta, window.location).pathname : '/teaser';
